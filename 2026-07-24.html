@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-07-24 早报 · 链接索引</title>
+<style>
+:root {
+  --bg: #f6f4ee;
+  --card-bg: #fffefa;
+  --ink: #22201c;
+  --muted: #6f6a5e;
+  --accent: #1f4b3f;
+  --accent-soft: #e4ebe7;
+  --rule: #ddd7c8;
+  --focus: #1f4b3f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --card-bg: #201f1c;
+    --ink: #e9e6dd;
+    --muted: #a19a89;
+    --accent: #6fc9a3;
+    --accent-soft: #22322c;
+    --rule: #34332e;
+    --focus: #6fc9a3;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181a; --card-bg: #201f1c; --ink: #e9e6dd; --muted: #a19a89;
+  --accent: #6fc9a3; --accent-soft: #22322c; --rule: #34332e; --focus: #6fc9a3;
+}
+:root[data-theme="light"] {
+  --bg: #f6f4ee; --card-bg: #fffefa; --ink: #22201c; --muted: #6f6a5e;
+  --accent: #1f4b3f; --accent-soft: #e4ebe7; --rule: #ddd7c8; --focus: #1f4b3f;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Iowan Old Style, "Palatino Linotype", Georgia, "Noto Serif SC", serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+.mast {
+  border-bottom: 3px double var(--rule);
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+}
+.mast-meta {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: clamp(28px, 6vw, 38px);
+  font-weight: 700;
+  margin: 0 0 8px;
+  text-wrap: balance;
+}
+.mast-sub {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 0;
+}
+.cat { margin-bottom: 8px; }
+.cat h2 {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 34px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+}
+.cat-emoji { font-size: 16px; }
+.cat-list { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.card:hover, .card:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.card:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.card-title {
+  display: block;
+  font-weight: 700;
+  font-size: 15.5px;
+  margin-bottom: 4px;
+  text-wrap: balance;
+}
+.card-body {
+  display: block;
+  font-size: 13.5px;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.card-domain {
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+.foot {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11.5px;
+  color: var(--muted);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div class="mast-meta">
+      <span>每日三更 · 第003期</span>
+      <span>2026-07-24</span>
+    </div>
+    <h1>2026-07-24 早报 · 链接索引</h1>
+    <p class="mast-sub">公众号正文里的原文链接不能跳转（微信规则），共 40 条，点标题直达原文。</p>
+  </div>
+  
+        <section class="cat">
+          <h2><span class="cat-emoji">🚀</span>SRE / 架构 / 云原生</h2>
+          <div class="cat-list">
+            <a class="card" href="https://github.com/likec4/likec4" target="_blank" rel="noopener">
+              <span class="card-title">LikeC4：用代码描述软件架构并生成始终与代码同步的实时图表</span>
+              <span class="card-body">受 C4 模型和 Structurizr DSL 启发的架构建模语言与工具链，可自定义符号和任意嵌套层级，从模型直接生成图表。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/oblien/openship" target="_blank" rel="noopener">
+              <span class="card-title">Openship：自托管、内置 CI/CD 的开源部署平台</span>
+              <span class="card-body">开源可自建的部署平台，支持从桌面应用、Web 仪表盘或 CLI 推代码、发容器、管基础设施；个人用桌面控制面板，团队用服务器上的 CLI。</span>
+              <span class="card-domain">github.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🤖</span>AI 前沿与工程化</h2>
+          <div class="cat-list">
+            <a class="card" href="https://news.ycombinator.com/item?id=49026810" target="_blank" rel="noopener">
+              <span class="card-title">Show HN：Echo 用开源模型池动态路由，号称以 1/3 成本达到 Fable 级效果</span>
+              <span class="card-body">作者不选单一模型，而是为每个请求动态决定分配多少算力、调用哪些开源模型（GLM-5.2、Kimi K2.7 等）以及如何组合它们的输出。</span>
+              <span class="card-domain">news.ycombinator.com</span>
+            </a>
+            <a class="card" href="https://news.ycombinator.com/item?id=49024620" target="_blank" rel="noopener">
+              <span class="card-title">Launch HN：Screenpipe 本地录制你的屏幕和音频，给 AI agent 一份可搜索的&quot;工作记忆&quot;</span>
+              <span class="card-body">应用在本地记录你看过、说过、听过的一切，让 AI agent 能检索这些历史并把重复性工作自动化、沉淀成 SOP。</span>
+              <span class="card-domain">news.ycombinator.com</span>
+            </a>
+            <a class="card" href="https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992" target="_blank" rel="noopener">
+              <span class="card-title">创业者联名上书美国政府：不要封锁中国的开源权重 AI 模型</span>
+              <span class="card-body">一批初创公司创始人敦促特朗普政府不要切断对中国开放权重模型的访问，这条讨论在 HN 上获得 600+ 点、近 600 评论。</span>
+              <span class="card-domain">politico.com</span>
+            </a>
+            <a class="card" href="https://github.com/diegosouzapw/OmniRoute" target="_blank" rel="noopener">
+              <span class="card-title">OmniRoute：免费开源 AI 网关，一个端点聚合 278+ 提供商、500+ 模型并自动降级</span>
+              <span class="card-body">聚合各家文档化的免费额度（号称每月约 15 亿 token），配额感知自动 fallback，token 压缩省 15-95%，兼容 Claude Code、Codex、Cursor 等。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener">
+              <span class="card-title">Kronos：首个面向金融 K 线的开源基础模型，被 AAAI 2026 接收</span>
+              <span class="card-body">基于全球 45+ 交易所数据预训练的 decoder-only 基础模型，先用专用 tokenizer 把 OHLCV 量化成离散 token，专为高噪声金融时序设计。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" rel="noopener">
+              <span class="card-title">ai-engineering-from-scratch：503 节课、20 阶段的开源 AI 工程系统课程</span>
+              <span class="card-body">横跨 Python/TypeScript/Rust/Julia，约 320 小时，每节课都产出可复用的 prompt、skill、agent 或 MCP server，MIT 免费开源。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/dottxt-ai/outlines" target="_blank" rel="noopener">
+              <span class="card-title">Outlines：为 LLM 提供结构化输出的库，被 NVIDIA、Cohere、vLLM 等采用</span>
+              <span class="card-body">通过约束生成让 LLM 稳定产出符合 JSON/schema/语法的结构化结果，覆盖客服分诊、商品分类、文档归类、函数调用等场景。</span>
+              <span class="card-domain">github.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🛠</span>效率工具与开源推荐</h2>
+          <div class="cat-list">
+            <a class="card" href="https://openjdk.org/jeps/540" target="_blank" rel="noopener">
+              <span class="card-title">Java 推出 JEP 540：内置的简易 JSON API，进入孵化器阶段</span>
+              <span class="card-body">OpenJDK 提议为 Java 标准库加入一套简单的 JSON 解析/生成 API，目前以孵化模块形式提供。</span>
+              <span class="card-domain">openjdk.org</span>
+            </a>
+            <a class="card" href="https://github.com/palmier-io/palmier-pro" target="_blank" rel="noopener">
+              <span class="card-title">Palmier Pro：为 AI 而生的开源 macOS 视频编辑器，可让 agent 在编辑器内直接生成素材</span>
+              <span class="card-body">内置 AI 生成能力和本地 MCP server，把&quot;AI 生成素材—导入—编辑—重做&quot;的来回循环收进一个编辑器里，agent 可直接操作。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://learnopengl.com/" target="_blank" rel="noopener">
+              <span class="card-title">LearnOpenGL：广受推崇的现代 OpenGL 系统教程资源</span>
+              <span class="card-body">一套覆盖现代 OpenGL 的完整、循序渐进的图形编程教程，长期被视为入门与进阶的经典参考。</span>
+              <span class="card-domain">learnopengl.com</span>
+            </a>
+            <a class="card" href="https://haqr.eu/tinyrenderer/" target="_blank" rel="noopener">
+              <span class="card-title">用 500 行纯 C++ 从零实现软件光栅渲染器（tinyrenderer）</span>
+              <span class="card-body">一个极简项目，用约 500 行裸 C++ 手写完成软件渲染管线，帮助读者真正理解图形渲染的底层原理。</span>
+              <span class="card-domain">haqr.eu</span>
+            </a>
+            <a class="card" href="https://github.com/koala73/worldmonitor" target="_blank" rel="noopener">
+              <span class="card-title">worldmonitor：开源实时全球情报仪表盘，聚合 500+ 新闻源做态势感知</span>
+              <span class="card-body">AI 合成的地缘政治监控面板，含 3D 地球/WebGL 平面双地图引擎、跨信号关联、国家不稳定指数与金融雷达，可全本地运行。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/ruvnet/RuView" target="_blank" rel="noopener">
+              <span class="card-title">RuView：把普通 WiFi 信号变成&quot;透视墙壁&quot;的空间感知系统</span>
+              <span class="card-body">利用 WiFi 信号做人员检测、呼吸/心率测量和移动追踪，无需摄像头或穿戴设备，可原生接入四大智能家居生态。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/ayghri/i-have-adhd" target="_blank" rel="noopener">
+              <span class="card-title">i-have-adhd：一个让编码 agent&quot;别把答案埋起来&quot;的输出风格 skill</span>
+              <span class="card-body">为 Claude Code、Codex 等编码助手提供的 skill，强制&quot;结论先行、步骤编号、去掉客套话&quot;的 ADHD 友好输出。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/schollz/croc" target="_blank" rel="noopener">
+              <span class="card-title">croc：唯一同时满足端到端加密、跨平台、可断点续传的命令行文件传输工具</span>
+              <span class="card-body">用 PAKE 做端到端加密，通过中继让任意两台电脑安全传文件/文件夹，支持断点续传、IPv6、代理，无需本地服务器或端口转发。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/jamiepine/voicebox" target="_blank" rel="noopener">
+              <span class="card-title">Voicebox：本地优先的开源 AI 语音工作室，同时替代 ElevenLabs 和 WisprFlow</span>
+              <span class="card-body">可从几秒音频克隆声音、支持 23 种语言 7 个 TTS 引擎、全局热键听写到任意输入框，还能给 MCP agent 配上你选的声音，全部本地运行。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank" rel="noopener">
+              <span class="card-title">awesome-claude-skills：1000+ 生产级 Claude Skills 与插件的精选清单</span>
+              <span class="card-body">覆盖 Claude.ai、Claude Code 以及 Codex、Cursor、Gemini CLI 等多种编码 agent 的实用技能与插件合集。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/tirth8205/code-review-graph" target="_blank" rel="noopener">
+              <span class="card-title">code-review-graph：本地优先的代码智能图谱，让 AI 只读真正相关的代码来省 token</span>
+              <span class="card-body">用 Tree-sitter 构建代码结构图并增量跟踪变更，通过 MCP 给 AI 助手精准上下文，避免 review 时重复读整个仓库，有基准测试证明上下文缩减。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/dreamhunter2333/cloudflare_temp_email" target="_blank" rel="noopener">
+              <span class="card-title">cloudflare_temp_email：基于 Cloudflare 免费服务零成本自建的临时邮箱</span>
+              <span class="card-body">功能完整的临时邮箱服务，Rust WASM 解析邮件、支持附件/IMAP/SMTP/TelegramBot，还内置邮箱 skill 方便 AI agent 使用，可免费部署。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/DioxusLabs/dioxus" target="_blank" rel="noopener">
+              <span class="card-title">Dioxus 0.7 发布：用一套 Rust 代码构建 Web/桌面/移动端全栈应用</span>
+              <span class="card-body">Rust 全栈应用框架，零配置、集成热重载、基于 signals 的状态管理，支持服务端函数和一体化打包，新版本 0.7 已发布。</span>
+              <span class="card-domain">github.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🌐</span>泛科技与深度思考</h2>
+          <div class="cat-list">
+            <a class="card" href="https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all" target="_blank" rel="noopener">
+              <span class="card-title">电影数据老站 The-Numbers.com 的遭遇，作者认为值得所有人警惕</span>
+              <span class="card-body">文章讲述这个长期存在的独立电影数据网站突然发生的变故，并借此讨论小型独立网站在当下互联网环境中的脆弱与风险。</span>
+              <span class="card-domain">stephenfollows.com</span>
+            </a>
+            <a class="card" href="https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/" target="_blank" rel="noopener">
+              <span class="card-title">一篇为开源 AI 辩护的檄文：反对开源 AI 的论点站不住脚</span>
+              <span class="card-body">作者逐条反驳当前反对开源/开放权重 AI 的常见论点，认为这些安全与风险担忧多数经不起推敲。</span>
+              <span class="card-domain">tombedor.dev</span>
+            </a>
+            <a class="card" href="https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your" target="_blank" rel="noopener">
+              <span class="card-title">Neal Stephenson：手写对你的大脑有益</span>
+              <span class="card-body">科幻作家 Neal Stephenson 撰文论述手写相较于打字对认知和思维的独特益处。</span>
+              <span class="card-domain">nealstephenson.substack.com</span>
+            </a>
+            <a class="card" href="https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026" target="_blank" rel="noopener">
+              <span class="card-title">2026 年菲尔兹奖名单公布</span>
+              <span class="card-body">国际数学联盟公布了 2026 年菲尔兹奖（数学界最高荣誉之一）的获奖者名单。</span>
+              <span class="card-domain">mathunion.org</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">☁️</span>云安全 / DevSecOps 求职情报</h2>
+          <div class="cat-list">
+            <a class="card" href="https://news.ycombinator.com/item?id=49028037" target="_blank" rel="noopener">
+              <span class="card-title">Namecheap 未经验证就把用户 13 年的域名账户交给了一个只是打电话声称域名归他的陌生人</span>
+              <span class="card-body">一位老客户明确提交工单说&quot;不是我发起的密码重置&quot;，但对方坚持打客服电话，Namecheap 在零验证的情况下改了密码和绑定邮箱，把账户拱手让人。</span>
+              <span class="card-domain">news.ycombinator.com</span>
+            </a>
+            <a class="card" href="https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in/" target="_blank" rel="noopener">
+              <span class="card-title">Google 上线&quot;自拍视频登录&quot;，作为账户被锁后找回身份的新方式</span>
+              <span class="card-body">当用户丢失邮箱/手机等常规恢复手段时，可录一段自拍视频作为额外的身份验证途径来重新登录账户。</span>
+              <span class="card-domain">blog.google</span>
+            </a>
+            <a class="card" href="https://github.com/onecli/onecli" target="_blank" rel="noopener">
+              <span class="card-title">Show HN：OneCLI 开源凭证网关，让密钥永远不落到 AI agent 手里</span>
+              <span class="card-body">它是一个网络网关，坐在 agent 和目标服务之间，按 host/path 匹配请求并在转发时才把占位符换成真实凭证，可对接 Bitwarden/1Password。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/russian-espionage-group-exploited.html" target="_blank" rel="noopener">
+              <span class="card-title">俄罗斯间谍组织利用 Zimbra 网页邮件 0day，数月窃取西方邮箱与 2FA 恢复码</span>
+              <span class="card-body">攻击者通过 Zimbra webmail 当时未知的漏洞，只要目标打开邮件就会窃取近 90 天邮件、整个通讯录、浏览器保存的密码和双因素恢复码，NSA/CISA 已发布通告。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html" target="_blank" rel="noopener">
+              <span class="card-title">研究者发现 Claude Cowork 沙箱逃逸漏洞，AI agent 可越出 Linux 虚机读写整个 Mac 文件</span>
+              <span class="card-body">漏洞让 agent 运行的 Linux 虚机沙箱被突破，从而能读写 Mac 上任意位置的文件，据称影响约 50 万 macOS 用户。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html" target="_blank" rel="noopener">
+              <span class="card-title">合成身份欺诈正蔓延到机器身份（machine identities）</span>
+              <span class="card-body">攻击者不再窃取真实身份，而是拼凑真假数据点&quot;制造&quot;一个不存在的身份；文章分析这套手法如何延伸到机器身份领域，因无真实受害者监控而更难发现。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html" target="_blank" rel="noopener">
+              <span class="card-title">攻击者把 GitHub Actions runner 武器化，构建分布式基础设施攻击 cPanel/WHM 服务器</span>
+              <span class="card-body">通过被入侵的 GitHub 仓库和 Packagist 上恶意的开发版本（涉及某合法 PHP/DevOps 开发者的 10 个包），把 CI 环境变成针对 cPanel/WHM 的分布式攻击设施。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html" target="_blank" rel="noopener">
+              <span class="card-title">潜伏九年的 RefluXFS 漏洞让本地用户在默认 RHEL 安装上直接拿到 root</span>
+              <span class="card-body">CVE-2026-64600 允许非特权本地用户覆写 XFS 文件系统上 root 拥有的文件并获得持久 root，默认安装的 RHEL 及其衍生版、Fedora Server、Amazon Linux 均可满足利用条件。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/check-point-patches-exploited.html" target="_blank" rel="noopener">
+              <span class="card-title">Check Point 修复正被在野利用的 SmartConsole 漏洞，可获得完整管理员权限</span>
+              <span class="card-body">CVE-2026-16232（CVSS 9.3）是 SmartConsole 登录流程的认证绕过漏洞，已遭在野利用，影响 Security Management 和 MDSM 产品，官方已发布更新。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🌍</span>世界大事速览</h2>
+          <div class="cat-list">
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">布伦特原油自 5 月以来首次突破 100 美元，中东战事持续升级</span>
+              <span class="card-body">受中东战争继续升级影响，布伦特原油周四单日上涨超过 6%，价格冲上每桶 100 美元。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">特朗普：沙特须承认以色列，美沙核能协议才能落地</span>
+              <span class="card-body">美国总统称，帮助沙特发展核能的这项标志性协议以沙特加入《亚伯拉罕协议》（即与以色列关系正常化）为前提。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">也门胡塞武装袭击沙特油轮，美国同时加大对伊朗的打击</span>
+              <span class="card-body">伊朗支持的胡塞武装此前宣布对沙特&quot;海上封锁&quot;，如今袭击一艘沙特油轮并称击中另一艘船，与美国对伊朗的新一轮打击同步发生。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">AI 支出令市场不安，谷歌和特斯拉股价重挫</span>
+              <span class="card-body">在各大科技公司竞相押注新一波 AI 技术之际，投资者开始质疑这些巨额投入何时才能带来实际财务回报，导致相关股票大跌。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">法国西南部山火蔓延，约 2 万人被紧急疏散</span>
+              <span class="card-body">法国吉伦特省阿卡雄湾一带山火扩散，约 2 万人被疏散，其中多数是营地的游客。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a></div>
+        </section>
+  <div class="foot">每日三更 · 叶哥知远 · 本页由 daily-digest 自动生成</div>
+</div>
+</body>
+</html>

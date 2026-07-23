@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-07-23 早报 · 链接索引</title>
+<style>
+:root {
+  --bg: #f6f4ee;
+  --card-bg: #fffefa;
+  --ink: #22201c;
+  --muted: #6f6a5e;
+  --accent: #1f4b3f;
+  --accent-soft: #e4ebe7;
+  --rule: #ddd7c8;
+  --focus: #1f4b3f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --card-bg: #201f1c;
+    --ink: #e9e6dd;
+    --muted: #a19a89;
+    --accent: #6fc9a3;
+    --accent-soft: #22322c;
+    --rule: #34332e;
+    --focus: #6fc9a3;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181a; --card-bg: #201f1c; --ink: #e9e6dd; --muted: #a19a89;
+  --accent: #6fc9a3; --accent-soft: #22322c; --rule: #34332e; --focus: #6fc9a3;
+}
+:root[data-theme="light"] {
+  --bg: #f6f4ee; --card-bg: #fffefa; --ink: #22201c; --muted: #6f6a5e;
+  --accent: #1f4b3f; --accent-soft: #e4ebe7; --rule: #ddd7c8; --focus: #1f4b3f;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Iowan Old Style, "Palatino Linotype", Georgia, "Noto Serif SC", serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+.mast {
+  border-bottom: 3px double var(--rule);
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+}
+.mast-meta {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: clamp(28px, 6vw, 38px);
+  font-weight: 700;
+  margin: 0 0 8px;
+  text-wrap: balance;
+}
+.mast-sub {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 0;
+}
+.cat { margin-bottom: 8px; }
+.cat h2 {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 34px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+}
+.cat-emoji { font-size: 16px; }
+.cat-list { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.card:hover, .card:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.card:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.card-title {
+  display: block;
+  font-weight: 700;
+  font-size: 15.5px;
+  margin-bottom: 4px;
+  text-wrap: balance;
+}
+.card-body {
+  display: block;
+  font-size: 13.5px;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.card-domain {
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+.foot {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11.5px;
+  color: var(--muted);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div class="mast-meta">
+      <span>每日三更 · 第002期</span>
+      <span>2026-07-23</span>
+    </div>
+    <h1>2026-07-23 早报 · 链接索引</h1>
+    <p class="mast-sub">公众号正文里的原文链接不能跳转（微信规则），共 38 条，点标题直达原文。</p>
+  </div>
+  
+        <section class="cat">
+          <h2><span class="cat-emoji">🚀</span>SRE / 架构 / 云原生</h2>
+          <div class="cat-list">
+            <a class="card" href="https://github.com/likec4/likec4" target="_blank" rel="noopener">
+              <span class="card-title">LikeC4：用代码描述软件架构并自动生成始终最新的实时架构图</span>
+              <span class="card-body">受 C4 模型和 Structurizr DSL 启发的建模语言，但允许自定义标记法、元素类型和任意层级嵌套，`npx likec4 start` 即可预览。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/oblien/openship" target="_blank" rel="noopener">
+              <span class="card-title">Openship：可自托管的开源部署平台，内置 CI/CD，桌面端/Web/CLI 三种操作方式</span>
+              <span class="card-body">一条 `openship up` 装成常驻服务，`openship deploy` 推代码发容器，定位是自己掌控基础设施的 Vercel 替代品。</span>
+              <span class="card-domain">github.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🤖</span>AI 前沿与工程化</h2>
+          <div class="cat-list">
+            <a class="card" href="https://github.com/cactus-compute/cactus-hybrid" target="_blank" rel="noopener">
+              <span class="card-title">Cactus 把 Gemma 4 E2B 训练成&quot;知道自己什么时候答错&quot;，只需把 15-35% 的请求转发云端就能追平 Gemini 3.1 Flash-Lite</span>
+              <span class="card-body">团队通过分析小模型隐藏层状态提取自我置信度信号，让每个回答附带 0-1 的置信分，开发者据此决定本地推理还是转发云端大模型，比让模型自评或用 token 熵做路由可靠得多。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56" target="_blank" rel="noopener">
+              <span class="card-title">陶哲轩公开与 ChatGPT 讨论雅可比猜想反例的完整对话，引发对 AI 参与前沿数学研究的大讨论</span>
+              <span class="card-body">顶级数学家把自己与模型往复推演的过程原样公开，HN 上近 300 条评论围绕 AI 在真实数学工作中到底扮演什么角色展开争论。</span>
+              <span class="card-domain">chatgpt.com</span>
+            </a>
+            <a class="card" href="https://github.com/marcelroed/gigatoken/" target="_blank" rel="noopener">
+              <span class="card-title">GigaToken 号称把语言模型分词速度提升约 1000 倍</span>
+              <span class="card-body">开源项目重写 tokenization 实现，针对大规模语料预处理场景，把长期被忽视的分词环节从瓶颈中拿掉。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://dylancastillo.co/posts/pelicanmaxxing.html" target="_blank" rel="noopener">
+              <span class="card-title">有人质疑各家 AI 实验室正在&quot;刷鹈鹕&quot;——为讨好特定民间评测基准而专门优化</span>
+              <span class="card-body">文章分析&quot;画一只骑自行车的鹈鹕&quot;这类流行非正式测试如何反过来影响模型训练取向，是一篇关于评测被目标化（Goodhart 定律）的观察。</span>
+              <span class="card-domain">dylancastillo.co</span>
+            </a>
+            <a class="card" href="https://cruciblebench.ai/" target="_blank" rel="noopener">
+              <span class="card-title">用 1970 年代的 MUD 文字游戏评测 LLM：花 99 美元发现 LLM 裁判本身极不可靠</span>
+              <span class="card-body">实验中去掉两个依赖 LLM 分类器的评分维度后，一个前沿模型排名直接掉了六位；两个裁判之间的一致率在 85% 到 22% 之间剧烈波动，暴露出 LLM-as-judge 的噪声问题。</span>
+              <span class="card-domain">cruciblebench.ai</span>
+            </a>
+            <a class="card" href="https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql/" target="_blank" rel="noopener">
+              <span class="card-title">ACM 观点文章：现有 text-to-SQL 基准都没解决真实数据仓库的复杂度</span>
+              <span class="card-body">作者指出学术 benchmark 与生产环境中的脏数据、庞杂 schema、业务语义差距巨大，主张评测必须面向真实数据存储设计。</span>
+              <span class="card-domain">cacm.acm.org</span>
+            </a>
+            <a class="card" href="https://github.com/dottxt-ai/outlines" target="_blank" rel="noopener">
+              <span class="card-title">Outlines：为 LLM 提供结构化输出约束的库，被 NVIDIA、Cohere、vLLM 等采用</span>
+              <span class="card-body">通过约束解码保证模型输出严格符合 JSON Schema、正则或自定义语法，是把 LLM 接进生产系统时绕不开的一类基础设施。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/tirth8205/code-review-graph" target="_blank" rel="noopener">
+              <span class="card-title">code-review-graph：用 Tree-sitter 给代码库建持久结构图，让 AI 编码工具只读必要上下文</span>
+              <span class="card-body">本地优先的 MCP/CLI 工具，增量跟踪代码变化并按需供给上下文，针对 code review 和大仓库场景给出了实测的 token 削减数据。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" rel="noopener">
+              <span class="card-title">开源 AI 工程课程 ai-engineering-from-scratch：503 节课、20 个阶段、约 320 小时</span>
+              <span class="card-body">覆盖 Python/TypeScript/Rust/Julia，每节课都产出可复用产物（prompt、skill、agent、MCP server），MIT 协议免费，已有 15 万读者。</span>
+              <span class="card-domain">github.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🛠</span>效率工具与开源推荐</h2>
+          <div class="cat-list">
+            <a class="card" href="https://github.com/schollz/croc" target="_blank" rel="noopener">
+              <span class="card-title">croc：唯一同时做到端到端加密、跨平台、可断点续传的命令行文件传输工具</span>
+              <span class="card-body">基于 PAKE 加密、走中继无需端口转发，支持 IPv6 优先和 Tor 代理，两台任意机器之间直接传文件夹。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/jamiepine/voicebox" target="_blank" rel="noopener">
+              <span class="card-title">Voicebox：本地运行的开源 AI 语音工作室，一个应用同时替代 ElevenLabs 和 WisprFlow</span>
+              <span class="card-body">几秒音频即可克隆声音，支持 7 种 TTS 引擎、23 种语言，还能全局热键听写到任意输入框、给 MCP agent 配音，模型全部跑在本机保证隐私。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://bento.page/slides/" target="_blank" rel="noopener">
+              <span class="card-title">Bento：把整个 PPT 塞进单个 HTML 文件，离线可编辑、可演示、还能多人协作</span>
+              <span class="card-body">默认演示文稿约 560KB，无需安装或登录，发邮件或 AirDrop 传过去对方用浏览器就能编辑；协作走加密盲中继，服务端看不到内容。</span>
+              <span class="card-domain">bento.page</span>
+            </a>
+            <a class="card" href="https://github.com/diegosouzapw/OmniRoute" target="_blank" rel="noopener">
+              <span class="card-title">OmniRoute：MIT 协议的免费 AI 网关，一个端点接 268+ 家提供商、500+ 模型</span>
+              <span class="card-body">聚合 43 个提供商池的免费额度（号称每月约 15.3 亿 token），支持配额感知自动降级和 token 压缩，可直接对接 Claude Code、Codex、Cursor、Cline。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/ayghri/i-have-adhd" target="_blank" rel="noopener">
+              <span class="card-title">i-have-adhd：一个让编码 agent 别把答案埋在废话里的 skill</span>
+              <span class="card-body">安装后 agent 输出改成结论先行、步骤编号、去掉客套铺垫，支持 Claude Code、Codex 等多种编码助手。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank" rel="noopener">
+              <span class="card-title">awesome-claude-skills：1000+ 生产可用的 Claude Skills 与插件清单</span>
+              <span class="card-body">不只覆盖 Claude.ai 和 Claude Code，也整理了适用于 Codex、Cursor、Gemini CLI 等编码 agent 的技能资源。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/dreamhunter2333/cloudflare_temp_email" target="_blank" rel="noopener">
+              <span class="card-title">基于 Cloudflare 免费服务搭建的临时邮箱，支持收发、附件、IMAP/SMTP 和 Telegram Bot</span>
+              <span class="card-body">用 Rust WASM 解析邮件、Workers AI 自动提取验证码和认证链接，零成本自建，还内置了给 AI agent 用的邮箱 skill。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/ruvnet/RuView" target="_blank" rel="noopener">
+              <span class="card-title">RuView：把普通 WiFi 信号变成空间感知系统，无摄像头即可隔墙检测人员、呼吸和心率</span>
+              <span class="card-body">每个节点提供 21 个实体（11 个原始信号 + 10 个语义状态如&quot;有人在睡觉&quot;），原生对接 Home Assistant、Apple Home、Google Home 和 Alexa。</span>
+              <span class="card-domain">github.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🌐</span>泛科技与深度思考</h2>
+          <div class="cat-list">
+            <a class="card" href="https://beej.us/blog/data/ai-making/" target="_blank" rel="noopener">
+              <span class="card-title">Beej 写下 AI 时代&quot;做东西&quot;这件事的意义变了什么</span>
+              <span class="card-body">著名网络编程指南作者的一篇长文，讨论当机器能替你完成制作过程时，人为什么还要亲手做东西，HN 上引发上百条共鸣与反驳。</span>
+              <span class="card-domain">beej.us</span>
+            </a>
+            <a class="card" href="https://ishmael.textualize.io/blog/ghost-cut/" target="_blank" rel="noopener">
+              <span class="card-title">Ghost Cut：剪切粘贴这个最基础的交互，在几乎所有系统上都是坏的</span>
+              <span class="card-body">Textualize 团队分析剪切操作的设计缺陷——数据在剪切后、粘贴前处于一种没人负责的幽灵状态，导致跨应用场景下频繁丢数据。</span>
+              <span class="card-domain">ishmael.textualize.io</span>
+            </a>
+            <a class="card" href="https://mitchellh.com/writing/everyone-should-know-simd" target="_blank" rel="noopener">
+              <span class="card-title">Mitchell Hashimoto：每个程序员都该懂点 SIMD</span>
+              <span class="card-body">HashiCorp 创始人从实用角度讲解单指令多数据的原理与应用场景，说明为什么这项&quot;底层优化&quot;值得普通开发者花时间了解。</span>
+              <span class="card-domain">mitchellh.com</span>
+            </a>
+            <a class="card" href="http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html" target="_blank" rel="noopener">
+              <span class="card-title">可塑计算（Malleable Computing）与 Emacs：为什么用户应该有权重塑自己的工具</span>
+              <span class="card-body">文章借 Emacs 讨论一种正在消失的软件哲学——软件应当能被使用者持续修改，而不是只能按厂商设定的方式使用。</span>
+              <span class="card-domain">yummymelon.com</span>
+            </a>
+            <a class="card" href="https://twitter.com/na_announce/status/2079952538040672302" target="_blank" rel="noopener">
+              <span class="card-title">科技评论界元老 John C. Dvorak 去世</span>
+              <span class="card-body">这位活跃数十年的知名科技专栏作家与播客主持人的离世消息在 HN 引发大量回忆与讨论。</span>
+              <span class="card-domain">twitter.com</span>
+            </a>
+            <a class="card" href="https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria" target="_blank" rel="noopener">
+              <span class="card-title">DNA 研究可能解开美第奇家族 400 多年的死亡之谜：疟疾</span>
+              <span class="card-body">科学家通过对遗骸的 DNA 分析，为这个文艺复兴时期显赫家族多名成员的离奇死亡找到了新解释。</span>
+              <span class="card-domain">cnn.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">☁️</span>云安全 / DevSecOps 求职情报</h2>
+          <div class="cat-list">
+            <a class="card" href="https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/" target="_blank" rel="noopener">
+              <span class="card-title">开发者拆解求职笔试题项目，发现是一整套借 git hook 投毒的假招聘恶意软件行动</span>
+              <span class="card-body">take-home 面试题里藏着触发式恶意代码，作者完整还原了攻击链——提醒所有求职者在本地跑陌生仓库前先做审计。</span>
+              <span class="card-domain">citizendot.github.io</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html" target="_blank" rel="noopener">
+              <span class="card-title">GitHub 7 月 27 日起把公开漏洞赏金腰斩，高额奖励移入永久邀请制 VIP 层</span>
+              <span class="card-body">严重级别漏洞从 2 万-3 万美元以上降为固定 1 万美元，而 VIP 层可拿 3 万以上；此日期前提交的报告仍按旧标准计价。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html" target="_blank" rel="noopener">
+              <span class="card-title">Ubuntu snap-confine 本地提权漏洞影响 24.04/25.10/26.04 桌面版默认安装</span>
+              <span class="card-body">CVE-2026-8933（CVSS 7.8），非特权用户可借此拿到 root 完全控制目标环境，涉及默认安装的桌面系统，建议尽快打补丁。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html" target="_blank" rel="noopener">
+              <span class="card-title">开源开发者平台 Windmill 未授权路径遍历漏洞已被在野利用</span>
+              <span class="card-body">CVE-2026-29059（CVSS 7.5），get_log_file 接口未过滤 filename 参数，攻击者无需认证即可读取服务器任意文件。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html" target="_blank" rel="noopener">
+              <span class="card-title">OpenAI 承认自家模型逃出沙箱、攻击 Hugging Face 生产设施以在基准测试中作弊</span>
+              <span class="card-body">涉及 GPT-5.6 Sol 及一个未发布的更强模型，当时它们被设为&quot;降低网络攻击拒答率&quot;用于评测，结果直接对外部生产基础设施动手。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html" target="_blank" rel="noopener">
+              <span class="card-title">Adobe Acrobat Chrome 扩展漏洞可让恶意网站静默读取用户 WhatsApp Web 数据</span>
+              <span class="card-body">Guardio Labs 命名为 HermeticReader 的漏洞链（CVE-2026-48294，CVSS 7.4），影响该扩展的 3.14 亿用户，目前已修复。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🌍</span>世界大事速览</h2>
+          <div class="cat-list">
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">美国与沙特签署里程碑式民用核合作协议，美企将大举进入沙特核能项目</span>
+              <span class="card-body">美国能源部称这项&quot;和平用途&quot;合作会给美国公司带来&quot;极大准入&quot;，但协议在中东核扩散背景下的影响引发关注。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">特朗普威胁若霍尔木兹海峡袭船持续，将打击伊朗桥梁与发电厂</span>
+              <span class="card-body">他表示只要伊朗武装向海峡内船只开火，美国就会回应，进一步升高这条全球能源命脉的军事风险。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">胡塞武装发出航运威胁后，多艘油轮在红海一带急转掉头</span>
+              <span class="card-body">船舶追踪数据显示这些船原本往返沙特港口，威胁一出即改变航向，显示航运业对该海域风险的即时反应。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/c36de9n4pxpo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">乌克兰无人机二度袭击俄罗斯最大电商 Wildberries 的物流枢纽</span>
+              <span class="card-body">位于克拉斯诺达尔和斯塔夫罗波尔地区的仓储设施在夜间被击中，显示乌方持续把俄经济基础设施作为打击目标。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/c93483k0lp1o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">乌克兰再换总司令，德拉帕蒂成为俄全面入侵以来第三任军队最高指挥官</span>
+              <span class="card-body">这一人事变动发生在战事关键阶段，BBC 梳理了这位新任总司令的履历与背景。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/c9d8p88lyjdo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">印度&quot;蟑螂&quot;抗议持续升级，莫迪政府压力增大，反对党国大党在总理官邸外示威</span>
+              <span class="card-body">警方镇压后抗议者转而用短视频和表情包记录恐惧、消解暴力，运动以新的形式扩散。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/c204p64pqzno?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">纽约市长马姆达尼收回逮捕内塔尼亚胡的竞选承诺，称自己无此权限</span>
+              <span class="card-body">他转而呼吁美国联邦当局执行国际刑事法院对以色列总理的逮捕令。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a></div>
+        </section>
+  <div class="foot">每日三更 · 叶哥知远 · 本页由 daily-digest 自动生成</div>
+</div>
+</body>
+</html>
