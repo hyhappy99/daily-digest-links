@@ -49,7 +49,7 @@ def parse(md_lines):
         i += 1
     return sections
 
-def build_html(sections, issue_no, date_str, total, series="每日三更", label="早报"):
+def build_html(sections, issue_no, date_str, total, series="每日一更", label="早报"):
     cards = []
     for sec in sections:
         items_html = []
@@ -239,7 +239,7 @@ if __name__ == "__main__":
     m = re.search(r"(\d{4}-\d{2}-\d{2})", md_path)
     date_str = m.group(1) if m else ""
     is_weekly = "weekly" in md_path.lower() or "周报" in md_path
-    series, label = ("本周精选", "周报") if is_weekly else ("每日三更", "早报")
+    series, label = ("本周精选", "周报") if is_weekly else ("每日一更", "早报")
     sections = parse(lines)
     total = sum(1 for s in sections for it in s["items"] if it["url"])
     html_out = build_html(sections, issue_no, date_str, total, series=series, label=label)
