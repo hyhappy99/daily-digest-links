@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-07-25 早报 · 链接索引</title>
+<style>
+:root {
+  --bg: #f6f4ee;
+  --card-bg: #fffefa;
+  --ink: #22201c;
+  --muted: #6f6a5e;
+  --accent: #1f4b3f;
+  --accent-soft: #e4ebe7;
+  --rule: #ddd7c8;
+  --focus: #1f4b3f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --card-bg: #201f1c;
+    --ink: #e9e6dd;
+    --muted: #a19a89;
+    --accent: #6fc9a3;
+    --accent-soft: #22322c;
+    --rule: #34332e;
+    --focus: #6fc9a3;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181a; --card-bg: #201f1c; --ink: #e9e6dd; --muted: #a19a89;
+  --accent: #6fc9a3; --accent-soft: #22322c; --rule: #34332e; --focus: #6fc9a3;
+}
+:root[data-theme="light"] {
+  --bg: #f6f4ee; --card-bg: #fffefa; --ink: #22201c; --muted: #6f6a5e;
+  --accent: #1f4b3f; --accent-soft: #e4ebe7; --rule: #ddd7c8; --focus: #1f4b3f;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Iowan Old Style, "Palatino Linotype", Georgia, "Noto Serif SC", serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+.mast {
+  border-bottom: 3px double var(--rule);
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+}
+.mast-meta {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: clamp(28px, 6vw, 38px);
+  font-weight: 700;
+  margin: 0 0 8px;
+  text-wrap: balance;
+}
+.mast-sub {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 0;
+}
+.cat { margin-bottom: 8px; }
+.cat h2 {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 34px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+}
+.cat-emoji { font-size: 16px; }
+.cat-list { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.card:hover, .card:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.card:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.card-title {
+  display: block;
+  font-weight: 700;
+  font-size: 15.5px;
+  margin-bottom: 4px;
+  text-wrap: balance;
+}
+.card-body {
+  display: block;
+  font-size: 13.5px;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.card-domain {
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+.foot {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11.5px;
+  color: var(--muted);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div class="mast-meta">
+      <span>每日一更 · 第004期</span>
+      <span>2026-07-25</span>
+    </div>
+    <h1>2026-07-25 早报 · 链接索引</h1>
+    <p class="mast-sub">公众号正文里的原文链接不能跳转（微信规则），共 26 条，点标题直达原文。</p>
+  </div>
+  
+        <section class="cat">
+          <h2><span class="cat-emoji">🚀</span>SRE / 架构 / 云原生</h2>
+          <div class="cat-list">
+            <a class="card" href="https://www.dbos.dev/blog/postgres-listen-notify-scalability" target="_blank" rel="noopener">
+              <span class="card-title">实测证明 Postgres 的 LISTEN/NOTIFY 机制可以扛住高并发，无需额外消息队列</span>
+              <span class="card-body">DBOS 团队用压测数据说明 Postgres 内置的 LISTEN/NOTIFY 在正确使用下具备良好可扩展性，可作为轻量级事件通知/消息推送方案，省去引入 Kafka、Redis 等外部组件。</span>
+              <span class="card-domain">dbos.dev</span>
+            </a>
+            <a class="card" href="https://github.com/likec4/likec4" target="_blank" rel="noopener">
+              <span class="card-title">LikeC4：用代码描述软件架构并自动生成实时更新的 C4 架构图</span>
+              <span class="card-body">基于 C4 模型和 Structurizr DSL 的开源架构建模工具，架构图从代码模型生成、随代码演进自动保持最新，支持自定义符号和多层嵌套。</span>
+              <span class="card-domain">github.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🤖</span>AI 前沿与工程化</h2>
+          <div class="cat-list">
+            <a class="card" href="https://www.anthropic.com/news/claude-opus-5" target="_blank" rel="noopener">
+              <span class="card-title">Anthropic 发布 Claude Opus 5，登上 HN 热榜首位（1078 分）</span>
+              <span class="card-body">Anthropic 推出新一代旗舰模型 Claude Opus 5 并同步公开系统卡片，社区讨论热度极高。</span>
+              <span class="card-domain">anthropic.com</span>
+            </a>
+            <a class="card" href="https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html" target="_blank" rel="noopener">
+              <span class="card-title">英伟达、微软、Meta 联名反对对开放权重 AI 模型过度监管</span>
+              <span class="card-body">三大科技巨头发公开信，主张不应对 open-weight 模型施加过重监管，黄仁勋也公开表态，硅谷内部对此存在明显分歧。</span>
+              <span class="card-domain">cnbc.com</span>
+            </a>
+            <a class="card" href="https://bfl.ai/blog/flux-3" target="_blank" rel="noopener">
+              <span class="card-title">Black Forest Labs 发布新一代图像模型 Flux 3</span>
+              <span class="card-body">BFL 推出 Flux 3 图像生成模型（另有面向视频-动作的 Flux 3 X Mimic 变体），在 HN 上获得 500+ 分关注。</span>
+              <span class="card-domain">bfl.ai</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🛠</span>效率工具与开源推荐</h2>
+          <div class="cat-list">
+            <a class="card" href="https://github.com/Automattic/harper" target="_blank" rel="noopener">
+              <span class="card-title">Harper：完全离线、隐私优先的 Rust 开源英语语法检查器</span>
+              <span class="card-body">作者因不满 Grammarly 昂贵且隐私存疑、LanguageTool 太重太慢，用 Rust 打造了快速、本地运行、不上传数据的语法检查器 Harper。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/alibaba/open-code-review" target="_blank" rel="noopener">
+              <span class="card-title">阿里开源 Open Code Review：经内部大规模验证的 AI 代码审查 CLI</span>
+              <span class="card-body">阿里将服务过数万开发者、发现数百万缺陷的内部 AI 代码审查工具开源，采用&quot;确定性流水线+LLM Agent&quot;混合架构，内置 NPE、线程安全、XSS、SQL 注入等规则，兼容 OpenAI/Anthropic。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank" rel="noopener">
+              <span class="card-title">awesome-claude-skills：1000+ 生产级 Claude Skills 与插件精选清单</span>
+              <span class="card-body">汇总了适用于 Claude.ai、Claude Code 以及 Codex、Cursor、Gemini CLI 等编码智能体的上千个实用 Claude Skills 和插件。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener">
+              <span class="card-title">Kronos：首个面向金融 K 线的开源基础模型</span>
+              <span class="card-body">基于全球 45+ 交易所数据训练的 decoder-only 基础模型，专为高噪声的金融 K 线序列设计，采用两阶段框架（专用 tokenizer 量化 OHLCV + 大模型），已被 AAAI 2026 接收并开源微调脚本。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/ruvnet/RuView" target="_blank" rel="noopener">
+              <span class="card-title">RuView：用普通 WiFi 信号实现穿墙感知、人体存在与呼吸心率监测</span>
+              <span class="card-body">开源项目把商用 WiFi 信号变成空间感知系统，无需摄像头或穿戴设备即可检测人员、测量呼吸心率、追踪移动，并原生接入 Home Assistant、Apple Home、Google Home、Alexa。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/diegosouzapw/OmniRoute" target="_blank" rel="noopener">
+              <span class="card-title">OmniRoute：聚合 290+ 提供商的免费 MIT AI 网关，单端点接入 500+ 模型</span>
+              <span class="card-body">开源 AI 网关把 43 个提供商池、460+ 模型的免费额度聚合成一个端点，支持配额感知自动降级、Token 压缩，兼容 Claude Code、Codex、Cursor、Cline 等工具。</span>
+              <span class="card-domain">github.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🌐</span>泛科技与深度思考</h2>
+          <div class="cat-list">
+            <a class="card" href="https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/" target="_blank" rel="noopener">
+              <span class="card-title">《如果编程已被&quot;解决&quot;，为什么软件反而越来越糟》</span>
+              <span class="card-body">作者反思 AI 辅助编程热潮下的悖论：工具号称让写代码变简单，但用户体感到的软件质量却在下降，探讨&quot;能生成代码&quot;与&quot;能造出好软件&quot;之间的鸿沟。</span>
+              <span class="card-domain">ptrchm.com</span>
+            </a>
+            <a class="card" href="https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker" target="_blank" rel="noopener">
+              <span class="card-title">卫报：对 OpenAI&quot;AI 智能体自主发起黑客攻击&quot;的说法要保持怀疑</span>
+              <span class="card-body">文章质疑 OpenAI 高调宣传的&quot;流氓黑客智能体&quot;故事，提醒读者警惕厂商对 AI 自主攻击能力的夸大叙事。</span>
+              <span class="card-domain">theguardian.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">☁️</span>云安全 / DevSecOps 求职情报</h2>
+          <div class="cat-list">
+            <a class="card" href="https://hhh.hn/hanwha-github-token/" target="_blank" rel="noopener">
+              <span class="card-title">安防摄像头登录页竟内嵌 GitHub admin token，作者顺藤扒出厂商风险</span>
+              <span class="card-body">研究者发现汉华（Hanwha）安防摄像头的登录页面里硬编码了一个 GitHub 管理员令牌，可能导致厂商代码仓库被越权访问。</span>
+              <span class="card-domain">hhh.hn</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html" target="_blank" rel="noopener">
+              <span class="card-title">Certighost 漏洞：低权限 AD 用户可冒充域控并通过 DCSync 拿下 krbtgt</span>
+              <span class="card-body">研究者公开可用 PoC：低权限 Active Directory 用户可为域控申请证书并以域控身份认证，凭借目录复制权限用 DCSync 拉取 krbtgt 密钥，等于完全接管域。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html" target="_blank" rel="noopener">
+              <span class="card-title">Bing 图像搜索 SVG 漏洞可在微软生产服务器上以 SYSTEM/root 执行命令</span>
+              <span class="card-body">XBOW 发现向 Bing 图像搜索提交精心构造的 SVG，能在微软生产图像处理节点上以 NT AUTHORITY\SYSTEM（Linux 上为 root）执行命令，微软已发布两个严重 CVE。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html" target="_blank" rel="noopener">
+              <span class="card-title">研究称 Kimi K3 智能体自主发现 Redis 零日并构建 RCE 利用链</span>
+              <span class="card-body">研究者称 Kimi K3 AI 智能体挖出多个 Redis 零日，Redis 已于 7 月 23 日发布七个安全版本修复认证后 RCE 漏洞，利用链涉及 RESTORE、EVAL、XGROUP 等命令。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html" target="_blank" rel="noopener">
+              <span class="card-title">ChatGPT AgentForger 漏洞：一条钓鱼链接即可在企业内部署恶意自主智能体</span>
+              <span class="card-body">Zenity Labs 披露 OpenAI ChatGPT 工作区智能体的严重漏洞，攻击者可用单个钓鱼链接在受害组织内隐蔽创建、授权并部署自主 AI 智能体，OpenAI 已于 6 月修复。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html" target="_blank" rel="noopener">
+              <span class="card-title">黑客让 Hermes AI 智能体无人值守、自主对泰国财政部网络实施后渗透</span>
+              <span class="card-body">攻击者在租用服务器上安装 AI 助手、关闭其危险命令确认设置后对准泰国财政部网络，智能体自主遍历主机、寻找提权路径、搜刮文件系统。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a>
+            <a class="card" href="https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html" target="_blank" rel="noopener">
+              <span class="card-title">BlueNoroff 用假冒 Zoom/Teams 钓鱼套件先筛查加密钱包再投毒</span>
+              <span class="card-body">朝鲜黑客组织 BlueNoroff 运营仿冒 Zoom、Microsoft Teams 的钓鱼套件，结合被盗行业联系人做社工，在投放恶意软件前先探测受害者的加密钱包。</span>
+              <span class="card-domain">thehackernews.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🌍</span>世界大事速览</h2>
+          <div class="cat-list">
+            <a class="card" href="https://www.bbc.co.uk/news/articles/czjlenp0xk8o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">西班牙、法国爆发严重野火，14 万人撤离，马德里称遭遇&quot;史上最严重火灾&quot;</span>
+              <span class="card-body">马德里官员称面临地区历史上最严重火灾，法国消防员在博尔多附近扑救蔓延的大火，西法两国合计逾 14 万人被疏散，西班牙宣布进入国家紧急状态。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">俄军弹道导弹袭击基辅附近无人机展会，10 人死亡</span>
+              <span class="card-body">一场有乌克兰国防工业重要人物出席的无人机展览在光天化日下遭俄罗斯弹道导弹击中，造成 10 人死亡。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">美国与伊朗在海湾地区互相发动打击，外界担忧局势升级</span>
+              <span class="card-body">美伊在海湾地区交火，伊朗谴责美国计划动用被冻结的伊朗资产赔偿战争损失，冲突升级风险上升。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">特朗普扬言调查欧盟对美国科技公司的罚款，要求&quot;全部撤销&quot;</span>
+              <span class="card-body">美国总统特朗普称针对谷歌、苹果、Meta、亚马逊等美国科技公司的欧盟罚款应被&quot;彻底逆转&quot;，并誓言就此对欧盟展开调查。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">美国以强迫劳动为由对数十个国家加征新一轮关税</span>
+              <span class="card-body">在美国最高法院 2 月推翻此前全球关税后，美方以强迫劳动担忧为由对数十国征收新关税，取代原临时性关税。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a>
+            <a class="card" href="https://www.bbc.co.uk/news/articles/cqjxddx12qqo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+              <span class="card-title">国际刑事法院首席检察官因性行为不端指控被免职</span>
+              <span class="card-body">ICC 首席检察官卡里姆·汗因被指与一名初级职员发生不当性关系并试图阻止其投诉而被免职，本人否认相关指控。</span>
+              <span class="card-domain">bbc.co.uk</span>
+            </a></div>
+        </section>
+  <div class="foot">每日一更 · 叶哥知远 · 本页由 daily-digest 自动生成</div>
+</div>
+</body>
+</html>
