@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-07-27 早报 · 链接索引</title>
+<style>
+:root {
+  --bg: #f6f4ee;
+  --card-bg: #fffefa;
+  --ink: #22201c;
+  --muted: #6f6a5e;
+  --accent: #1f4b3f;
+  --accent-soft: #e4ebe7;
+  --rule: #ddd7c8;
+  --focus: #1f4b3f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --card-bg: #201f1c;
+    --ink: #e9e6dd;
+    --muted: #a19a89;
+    --accent: #6fc9a3;
+    --accent-soft: #22322c;
+    --rule: #34332e;
+    --focus: #6fc9a3;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181a; --card-bg: #201f1c; --ink: #e9e6dd; --muted: #a19a89;
+  --accent: #6fc9a3; --accent-soft: #22322c; --rule: #34332e; --focus: #6fc9a3;
+}
+:root[data-theme="light"] {
+  --bg: #f6f4ee; --card-bg: #fffefa; --ink: #22201c; --muted: #6f6a5e;
+  --accent: #1f4b3f; --accent-soft: #e4ebe7; --rule: #ddd7c8; --focus: #1f4b3f;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Iowan Old Style, "Palatino Linotype", Georgia, "Noto Serif SC", serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+.mast {
+  border-bottom: 3px double var(--rule);
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+}
+.mast-meta {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: clamp(28px, 6vw, 38px);
+  font-weight: 700;
+  margin: 0 0 8px;
+  text-wrap: balance;
+}
+.mast-sub {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 0;
+}
+.cat { margin-bottom: 8px; }
+.cat h2 {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 34px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+}
+.cat-emoji { font-size: 16px; }
+.cat-list { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.card:hover, .card:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.card:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.card-title {
+  display: block;
+  font-weight: 700;
+  font-size: 15.5px;
+  margin-bottom: 4px;
+  text-wrap: balance;
+}
+.card-body {
+  display: block;
+  font-size: 13.5px;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.card-domain {
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+.foot {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11.5px;
+  color: var(--muted);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div class="mast-meta">
+      <span>每日一更 · 第006期</span>
+      <span>2026-07-27</span>
+    </div>
+    <h1>2026-07-27 早报 · 链接索引</h1>
+    <p class="mast-sub">公众号正文里的原文链接不能跳转（微信规则），共 19 条，点标题直达原文。</p>
+  </div>
+  
+        <section class="cat">
+          <h2><span class="cat-emoji">🤖</span>AI 前沿与工程化</h2>
+          <div class="cat-list">
+            <a class="card" href="https://github.com/anthropics/claude-cookbooks" target="_blank" rel="noopener">
+              <span class="card-title">anthropics/claude-cookbooks：Claude 官方开发实践代码合集</span>
+              <span class="card-body">Anthropic 官方维护的 notebook/配方集合，提供可直接复用的代码片段帮助开发者用 Claude 构建应用。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/andrewyng/aisuite" target="_blank" rel="noopener">
+              <span class="card-title">aisuite：多家生成式 AI 提供商的统一调用接口</span>
+              <span class="card-body">吴恩达团队的轻量 Python 库，提供跨供应商统一的 Chat Completions API，并在其上叠加带工具的 Agents API，支持 OpenAI/Anthropic/Google/Ollama。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener">
+              <span class="card-title">Kronos：面向金融 K 线的开源基础模型，已被 AAAI 2026 接收</span>
+              <span class="card-body">首个针对金融蜡烛图（K 线）的开源基础模型，基于 45+ 全球交易所数据预训练，用两阶段框架把 OHLCV 量化为离散 token 再建模。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/RyanCodrai/turbovec" target="_blank" rel="noopener">
+              <span class="card-title">turbovec：Rust 向量索引，内存仅 FAISS 的 1/8 且检索更快</span>
+              <span class="card-body">基于 Google Research 的 TurboQuant 算法，1000 万文档从 31GB 压到 4GB，无需训练阶段即可在线摄入，手写 SIMD 内核在 ARM 上比 FAISS 快 10–19%。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/Lordog/dive-into-llms" target="_blank" rel="noopener">
+              <span class="card-title">《动手学大模型》：上海交大课程孵化的免费大模型实践教程</span>
+              <span class="card-body">涵盖微调部署、提示学习与思维链、知识编辑、数学推理、模型水印、越狱攻击、多模态等主题的中文编程实践教程，含课件、教程与脚本。</span>
+              <span class="card-domain">github.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🛠</span>效率工具与开源推荐</h2>
+          <div class="cat-list">
+            <a class="card" href="https://astgrep.com/blog/tree-sitter-rust-rewrite" target="_blank" rel="noopener">
+              <span class="card-title">AST-grep 用 Rust 重写 Tree-sitter，性能提升约 30%</span>
+              <span class="card-body">AST-grep 团队分享如何用 Rust 重新实现 Tree-sitter 绑定，并取得约 30% 的解析性能提升的工程细节。</span>
+              <span class="card-domain">astgrep.com</span>
+            </a>
+            <a class="card" href="https://pkg.go.dev/golang.org/x/tools/go/analysis" target="_blank" rel="noopener">
+              <span class="card-title">Go 官方团队推出模块化静态分析框架 go/analysis</span>
+              <span class="card-body">Go 团队提供的 analysis 框架，让开发者用统一接口编写可组合的静态分析器（linter/checker）。</span>
+              <span class="card-domain">pkg.go.dev</span>
+            </a>
+            <a class="card" href="https://github.com/alibaba/open-code-review" target="_blank" rel="noopener">
+              <span class="card-title">阿里开源 Open Code Review：确定性流水线 + LLM Agent 的代码审查工具</span>
+              <span class="card-body">从阿里内部服务数万开发者的 AI 代码审查助手孵化而来，混合架构给出行级评审意见，内置 NPE、线程安全、XSS、SQL 注入等规则，兼容 OpenAI/Anthropic。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/Automattic/harper" target="_blank" rel="noopener">
+              <span class="card-title">Harper：Rust 编写的离线、隐私优先英语语法检查器</span>
+              <span class="card-body">面向 Grammarly/LanguageTool 的开源替代，完全本地运行、速度快、内存占用低，数据不上传服务器。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/OtterMind/Chat2DB" target="_blank" rel="noopener">
+              <span class="card-title">Chat2DB：支持 30+ 数据库、可接自有模型的 AI SQL 客户端</span>
+              <span class="card-body">跨平台本地运行的数据库客户端，集成 SQL 工作区与 AI 助手，支持 MySQL/PG/ClickHouse 等 30 多种数据库，用自然语言生成和优化 SQL。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank" rel="noopener">
+              <span class="card-title">awesome-claude-skills：1000+ 生产可用的 Claude Skills/插件精选合集</span>
+              <span class="card-body">一份覆盖 Claude.ai、Claude Code 及 Codex/Cursor/Gemini CLI 等多种编码 Agent 的技能与插件精选清单。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+              <span class="card-title">Superpowers：给编码 Agent 的一套可组合技能与开发方法论框架</span>
+              <span class="card-body">在开始写代码前先引导 Agent 澄清需求、产出规格，再用可组合的技能推进开发，支持 Claude Code、Codex、Cursor 等多种工具。</span>
+              <span class="card-domain">github.com</span>
+            </a>
+            <a class="card" href="https://github.com/citrolabs/ego-lite" target="_blank" rel="noopener">
+              <span class="card-title">ego-lite：为 AI Agent 打造、可共享登录态的浏览器</span>
+              <span class="card-body">一款让人和 AI Agent 并行工作的浏览器，Agent 在独立 Space 跑自动化任务并复用你已登录的账号，无需额外配置，目前支持 macOS。</span>
+              <span class="card-domain">github.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">🌐</span>泛科技与深度思考</h2>
+          <div class="cat-list">
+            <a class="card" href="https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf" target="_blank" rel="noopener">
+              <span class="card-title">面向数据的设计（Data-Oriented Design）入门</span>
+              <span class="card-body">一份介绍 DOD 思想的资料，讲解如何围绕数据布局与内存访问来组织代码以获得高性能，源自游戏开发实践。</span>
+              <span class="card-domain">gamedevs.org</span>
+            </a>
+            <a class="card" href="https://stephango.com/design-is-compromise" target="_blank" rel="noopener">
+              <span class="card-title">设计即妥协：好设计的本质是权衡取舍</span>
+              <span class="card-body">作者论述任何设计都是在相互冲突的目标间做妥协，没有绝对最优解，只有基于约束的取舍。</span>
+              <span class="card-domain">stephango.com</span>
+            </a>
+            <a class="card" href="https://vectoral.com/blog/token-relay-market" target="_blank" rel="noopener">
+              <span class="card-title">揭秘为 token 转售和欺诈供血的“中继市场”</span>
+              <span class="card-body">文章剖析围绕 API token 转售与欺诈形成的地下中继市场是如何运作的，涉及供应链、代理转发等灰色链条。</span>
+              <span class="card-domain">vectoral.com</span>
+            </a>
+            <a class="card" href="https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/" target="_blank" rel="noopener">
+              <span class="card-title">伦敦盖特威克机场上线机器人自动泊车服务</span>
+              <span class="card-body">盖特威克机场引入 Stanley Robotics 的机器人代客泊车系统，用机器人搬运和停放旅客车辆以提高停车效率。</span>
+              <span class="card-domain">aerospaceglobalnews.com</span>
+            </a>
+            <a class="card" href="https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/" target="_blank" rel="noopener">
+              <span class="card-title">“把细节甩给别人”并不是真正的授权</span>
+              <span class="card-body">作者反思管理中常见的“授权”误区：只丢琐碎细节、留下真正决策权，这并不能激励和成长团队成员。</span>
+              <span class="card-domain">davidnicholaswilliams.com</span>
+            </a></div>
+        </section>
+
+        <section class="cat">
+          <h2><span class="cat-emoji">☁️</span>云安全 / DevSecOps 求职情报</h2>
+          <div class="cat-list">
+            <a class="card" href="https://orchidfiles.com/github-security-team/" target="_blank" rel="noopener">
+              <span class="card-title">一线视角：GitHub 内部安全团队到底在做什么工作</span>
+              <span class="card-body">文章拆解 GitHub 安全团队的日常职责与组织分工，讲清一个大型代码托管平台的安全工程实际包含哪些环节。</span>
+              <span class="card-domain">orchidfiles.com</span>
+            </a></div>
+        </section>
+  <div class="foot">每日一更 · 叶哥知远 · 本页由 daily-digest 自动生成</div>
+</div>
+</body>
+</html>
