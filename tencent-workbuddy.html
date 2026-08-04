@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>腾讯 WorkBuddy 教程 · 参考资料索引</title>
+<style>
+:root {
+  --bg: #f6f4ee;
+  --card-bg: #fffefa;
+  --ink: #22201c;
+  --muted: #6f6a5e;
+  --accent: #1f4b3f;
+  --accent-soft: #e4ebe7;
+  --rule: #ddd7c8;
+  --focus: #1f4b3f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --card-bg: #201f1c;
+    --ink: #e9e6dd;
+    --muted: #a19a89;
+    --accent: #6fc9a3;
+    --accent-soft: #22322c;
+    --rule: #34332e;
+    --focus: #6fc9a3;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181a; --card-bg: #201f1c; --ink: #e9e6dd; --muted: #a19a89;
+  --accent: #6fc9a3; --accent-soft: #22322c; --rule: #34332e; --focus: #6fc9a3;
+}
+:root[data-theme="light"] {
+  --bg: #f6f4ee; --card-bg: #fffefa; --ink: #22201c; --muted: #6f6a5e;
+  --accent: #1f4b3f; --accent-soft: #e4ebe7; --rule: #ddd7c8; --focus: #1f4b3f;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Iowan Old Style, "Palatino Linotype", Georgia, "Noto Serif SC", serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+.mast {
+  border-bottom: 3px double var(--rule);
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+}
+.mast-meta {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: clamp(28px, 6vw, 38px);
+  font-weight: 700;
+  margin: 0 0 8px;
+  text-wrap: balance;
+}
+.mast-sub {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 0;
+}
+.cat { margin-bottom: 8px; }
+.cat h2 {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 34px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+}
+.cat-emoji { font-size: 16px; }
+.cat-list { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.card:hover, .card:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.card:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.card-title {
+  display: block;
+  font-weight: 700;
+  font-size: 15.5px;
+  margin-bottom: 4px;
+  text-wrap: balance;
+}
+.card-body {
+  display: block;
+  font-size: 13.5px;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.card-domain {
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+.foot {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11.5px;
+  color: var(--muted);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div class="mast-meta">
+      <span>专题教程 · 参考资料</span>
+      <span>2026-08-04</span>
+    </div>
+    <h1>腾讯 WorkBuddy 参考资料索引</h1>
+    <p class="mast-sub">公众号正文里的原文链接不能跳转（微信规则），共 10 条参考来源，点标题直达原文。</p>
+  </div>
+
+  <section class="cat">
+    <h2><span class="cat-emoji">📰</span>产品与行业动态</h2>
+    <div class="cat-list">
+      <a class="card" href="https://x.com/richardturrin/status/2082851247829250322" target="_blank" rel="noopener">
+        <span class="card-title">@richardturrin：WorkBuddy 四个月拿下国内 AI 办公 Agent 榜首，月访问量 2097 万</span>
+        <span class="card-body">字节、阿里都没能阻止，反映中国科技公司围绕"AI 使用入口"的激烈竞争。</span>
+        <span class="card-domain">x.com</span>
+      </a>
+      <a class="card" href="https://x.com/TechBuzzChina/status/2081597969816522959" target="_blank" rel="noopener">
+        <span class="card-title">@TechBuzzChina：中国 AI 办公 Agent 军备竞赛落幕，腾讯/阿里纷纷整合产品线</span>
+        <span class="card-body">阿里把 QoderWork、Wukong、MuleRun 合并为"通义办公"；腾讯把 QClaw 并入 WorkBuddy。</span>
+        <span class="card-domain">x.com</span>
+      </a>
+      <a class="card" href="https://x.com/TechBuzzChina/status/2083032422300487732" target="_blank" rel="noopener">
+        <span class="card-title">@TechBuzzChina：WorkBuddy 登陆华为 HarmonyOS PC，成为该平台首个原生桌面 AI Agent</span>
+        <span class="card-body">腾讯与华为完成系统级整合，包括"一碰分享"等 HarmonyOS 专属功能。</span>
+        <span class="card-domain">x.com</span>
+      </a>
+      <a class="card" href="https://technode.com/2026/03/09/tencent-launches-openclaw-like-workplace-ai-agent-workbuddy/" target="_blank" rel="noopener">
+        <span class="card-title">TechNode：腾讯发布类 OpenClaw 的办公 AI Agent WorkBuddy</span>
+        <span class="card-body">产品上线之初的早期报道，介绍其定位和核心卖点。</span>
+        <span class="card-domain">technode.com</span>
+      </a>
+      <a class="card" href="https://pandaily.com/tencent-workbuddy-local-ai-agent-guide-jul2026" target="_blank" rel="noopener">
+        <span class="card-title">Pandaily：Tencent WorkBuddy 新手指南——为中国用户量身定制、真正能干活的本地 AI Agent</span>
+        <span class="card-body">面向海外读者的入门介绍，覆盖核心功能和典型使用场景。</span>
+        <span class="card-domain">pandaily.com</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2><span class="cat-emoji">📥</span>下载安装 &amp; 对比评测</h2>
+    <div class="cat-list">
+      <a class="card" href="https://www.tencentcloud.com/techpedia/144100?lang=en" target="_blank" rel="noopener">
+        <span class="card-title">腾讯云官方：WorkBuddy 下载、安装与使用指南（海外版）</span>
+        <span class="card-body">系统要求、下载地址、Windows/macOS 安装步骤的官方权威说明。</span>
+        <span class="card-domain">tencentcloud.com</span>
+      </a>
+      <a class="card" href="https://coworkhow.com/comparison/cowork-vs-workbuddy" target="_blank" rel="noopener">
+        <span class="card-title">CoworkHow：Claude Cowork vs Tencent WorkBuddy 全面对比</span>
+        <span class="card-body">Claude 胜在英文模型质量，WorkBuddy 胜在可自由切换 Hunyuan/DeepSeek/GLM/Kimi 等模型。</span>
+        <span class="card-domain">coworkhow.com</span>
+      </a>
+      <a class="card" href="https://www.eigent.ai/blog/workbuddy-ai-review" target="_blank" rel="noopener">
+        <span class="card-title">Eigent.ai：WorkBuddy AI 深度评测（2026）</span>
+        <span class="card-body">多智能体并行架构如何让体验更像"给团队开会布置任务"而非单纯聊天。</span>
+        <span class="card-domain">eigent.ai</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2><span class="cat-emoji">🧩</span>Skills 系统教程</h2>
+    <div class="cat-list">
+      <a class="card" href="https://developer.cloud.tencent.com/article/2693324" target="_blank" rel="noopener">
+        <span class="card-title">腾讯云开发者社区：WorkBuddy 技能系统深度指南——搜索、安装、创建自定义技能全流程</span>
+        <span class="card-body">系统讲解 SKILL.md 结构、YAML 定义、SkillHub 社区市场的使用方法。</span>
+        <span class="card-domain">developer.cloud.tencent.com</span>
+      </a>
+      <a class="card" href="https://github.com/semlinker/awesome-workbuddy" target="_blank" rel="noopener">
+        <span class="card-title">GitHub：semlinker/awesome-workbuddy——精选学习资料、实战案例、Skills 与 MCP 资源导航</span>
+        <span class="card-body">社区维护的资源合集，适合系统学习 WorkBuddy 的进阶用法。</span>
+        <span class="card-domain">github.com</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="foot">叶哥知远 · 由 last30days 全网调研 + AI 辅助整理</div>
+</div>
+</body>
+</html>
