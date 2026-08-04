@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FDE(Forward Deployed Engineer)科普 · 参考资料索引</title>
+<style>
+:root {
+  --bg: #f6f4ee;
+  --card-bg: #fffefa;
+  --ink: #22201c;
+  --muted: #6f6a5e;
+  --accent: #1f4b3f;
+  --accent-soft: #e4ebe7;
+  --rule: #ddd7c8;
+  --focus: #1f4b3f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --card-bg: #201f1c;
+    --ink: #e9e6dd;
+    --muted: #a19a89;
+    --accent: #6fc9a3;
+    --accent-soft: #22322c;
+    --rule: #34332e;
+    --focus: #6fc9a3;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181a; --card-bg: #201f1c; --ink: #e9e6dd; --muted: #a19a89;
+  --accent: #6fc9a3; --accent-soft: #22322c; --rule: #34332e; --focus: #6fc9a3;
+}
+:root[data-theme="light"] {
+  --bg: #f6f4ee; --card-bg: #fffefa; --ink: #22201c; --muted: #6f6a5e;
+  --accent: #1f4b3f; --accent-soft: #e4ebe7; --rule: #ddd7c8; --focus: #1f4b3f;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Iowan Old Style, "Palatino Linotype", Georgia, "Noto Serif SC", serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+.mast {
+  border-bottom: 3px double var(--rule);
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+}
+.mast-meta {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: clamp(28px, 6vw, 38px);
+  font-weight: 700;
+  margin: 0 0 8px;
+  text-wrap: balance;
+}
+.mast-sub {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 0;
+}
+.cat { margin-bottom: 8px; }
+.cat h2 {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 34px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+}
+.cat-emoji { font-size: 16px; }
+.cat-list { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.card:hover, .card:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.card:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.card-title {
+  display: block;
+  font-weight: 700;
+  font-size: 15.5px;
+  margin-bottom: 4px;
+  text-wrap: balance;
+}
+.card-body {
+  display: block;
+  font-size: 13.5px;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.card-domain {
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+.foot {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK SC", monospace;
+  font-size: 11.5px;
+  color: var(--muted);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div class="mast-meta">
+      <span>专题科普 · 参考资料</span>
+      <span>2026-08-04</span>
+    </div>
+    <h1>FDE（Forward Deployed Engineer）参考资料索引</h1>
+    <p class="mast-sub">公众号正文里的原文链接不能跳转（微信规则），共 10 条参考来源，点标题直达原文。</p>
+  </div>
+
+  <section class="cat">
+    <h2><span class="cat-emoji">📰</span>行业报道 &amp; 数据</h2>
+    <div class="cat-list">
+      <a class="card" href="https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/" target="_blank" rel="noopener">
+        <span class="card-title">TechCrunch：Forward-deployed engineers are the AI industry's latest talent obsession</span>
+        <span class="card-body">主流科技媒体对 FDE 岗位爆火的整体报道，梳理招聘趋势和头部公司布局。</span>
+        <span class="card-domain">techcrunch.com</span>
+      </a>
+      <a class="card" href="https://www.wsj.com/cio-journal/the-hottest-job-in-tech-isnt-very-glamorous-dc29ab3e" target="_blank" rel="noopener">
+        <span class="card-title">WSJ：The Hottest Job in Tech Isn't Very Glamorous</span>
+        <span class="card-body">华尔街日报报道 FDE 岗位光鲜背后的真实工作强度，解释为何不少工程师对这个"最热门岗位"望而却步。</span>
+        <span class="card-domain">wsj.com</span>
+      </a>
+      <a class="card" href="https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers" target="_blank" rel="noopener">
+        <span class="card-title">The Pragmatic Engineer：What are Forward Deployed Engineers, and why are they so in demand?</span>
+        <span class="card-body">对 FDE 岗位的定义、技能要求、需求原因做了目前最系统的深度解析，是本文最主要的信息来源之一。</span>
+        <span class="card-domain">pragmaticengineer.com</span>
+      </a>
+      <a class="card" href="https://getperspective.ai/blog/2026-fde-hiring-trends-what-1000-job-posts-reveal" target="_blank" rel="noopener">
+        <span class="card-title">Perspective AI：2026 FDE Hiring Trends（1000+ 招聘帖分析）</span>
+        <span class="card-body">分析上千条 FDE 招聘帖，给出岗位增长率、薪资区间、title 分化等一手数据。</span>
+        <span class="card-domain">getperspective.ai</span>
+      </a>
+      <a class="card" href="https://www.forbes.com/sites/stevebanker/2026/07/10/palantir-and-forward-deployed-engineering-what-should-we-believe/" target="_blank" rel="noopener">
+        <span class="card-title">Forbes：Palantir And Forward Deployed Engineering: What Should We Believe?</span>
+        <span class="card-body">回顾 Palantir 如何率先打磨出 FDE 模式，以及该模式在其商业化收入中的占比。</span>
+        <span class="card-domain">forbes.com</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2><span class="cat-emoji">💬</span>观点 &amp; 争议</h2>
+    <div class="cat-list">
+      <a class="card" href="https://www.flybridge.com/ideas/the-bow/why-95-of-startups-get-the-forward-deployed-engineer-role-completely-wrong" target="_blank" rel="noopener">
+        <span class="card-title">Flybridge：Why 95%+ of Startups Get the Forward Deployed Engineer Role Wrong</span>
+        <span class="card-body">批评很多创业公司只是把 FDE 当"救火员"，却没有把驻场发现的问题沉淀回产品，讨论区（HN 106 赞/98 评论）很热烈。</span>
+        <span class="card-domain">flybridge.com</span>
+      </a>
+      <a class="card" href="https://fdepulse.com/career/reality/forward-deployed-engineer-pros-and-cons/" target="_blank" rel="noopener">
+        <span class="card-title">FDE Pulse：Forward Deployed Engineer 的优缺点全解析</span>
+        <span class="card-body">系统梳理出差强度、work-life balance、职业成长等真实利弊，并给出"轮岗制"等企业侧的缓解方案。</span>
+        <span class="card-domain">fdepulse.com</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2><span class="cat-emoji">🎯</span>想入行：面试准备</h2>
+    <div class="cat-list">
+      <a class="card" href="https://www.tryexponent.com/blog/forward-deployed-engineer-interview-the-definitive-2026-guide-fde" target="_blank" rel="noopener">
+        <span class="card-title">Exponent：Forward Deployed Engineer Interview 2026 权威指南</span>
+        <span class="card-body">拆解 OpenAI / Google / ElevenLabs 等公司的 FDE 面试流程，重点分析通过率最低、权重最高的"模糊案例研究"环节。</span>
+        <span class="card-domain">tryexponent.com</span>
+      </a>
+      <a class="card" href="https://www.datainterview.com/blog/forward-deployed-engineer-interview-prep" target="_blank" rel="noopener">
+        <span class="card-title">DataInterview：Forward Deployed Engineer Interview Prep 2026</span>
+        <span class="card-body">给出 FDE 面试中常见的贴近生产环境的编程题类型，以及技能/薪资概览。</span>
+        <span class="card-domain">datainterview.com</span>
+      </a>
+      <a class="card" href="https://www.datacamp.com/blog/what-is-forward-deployed-engineer" target="_blank" rel="noopener">
+        <span class="card-title">DataCamp：What Is a Forward Deployed Engineer? Role, Skills, and Why It Matters</span>
+        <span class="card-body">面向初学者的 FDE 岗位科普，梳理典型职责与所需技能栈。</span>
+        <span class="card-domain">datacamp.com</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="foot">叶哥知远 · 由 last30days 全网调研 + AI 辅助整理</div>
+</div>
+</body>
+</html>
